@@ -20,7 +20,6 @@ function App() {
         }
     };
 
-    // Formdaki alanları frontend tarafında doğrulayan fonksiyon
     const validateInputs = () => {
         const errors = {};
         if (newStudent.studentFullName.length < 6 || newStudent.studentFullName.length > 15) {
